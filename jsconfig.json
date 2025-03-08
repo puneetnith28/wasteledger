@@ -1,0 +1,46 @@
+// {
+//     "compilerOptions": {
+//       "baseUrl": "src"
+//     },
+//     "include": ["src"]
+//   }
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "target": "ES2017",
+    "paths": {
+      "@/*": ["./*"]
+    },
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "noEmit": true,
+    "incremental": true,
+    "module": "esnext",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
+  },
+  "include": [
+    "src",
+    ".next/types/**/*.ts"
+, "src/models/User.js", "src/components/ui/Button.js", "src/components/ui/card.js", "src/components/ui/Navbar.js"  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "paths": {
+    "@/*": ["./*"]
+  }
+}
